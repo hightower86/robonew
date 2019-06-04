@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Card from './Card';
+//import Card from './Card';
 import CardList from './CardList'
 import * as serviceWorker from './serviceWorker';
 import 'tachyons'; 
 import { robots } from './robots';
-import { directive } from '@babel/types';
+//import { directive } from '@babel/types';
 
 ReactDOM.render(
     <CardList robots = {robots}/>
