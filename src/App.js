@@ -21,7 +21,7 @@ import { robots } from './robots';
       return robot.name.toLowerCase().includes(this.state.searchField.toLowerCase())
     })
     return (
-      <div className='tc bg-green'>
+      <div className='tc'>
         <h1 className='f1'>RoboFriends</h1>
         <SearchBox searchField = {this.searchField} searchChange = {this.onSearchChange}/>
         <CardList robots = {filteredRobots}/>
